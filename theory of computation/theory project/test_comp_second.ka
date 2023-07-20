@@ -1,0 +1,16 @@
+-- for making this file type 1 in Make.sh arguments
+const leo = "#new string": str;
+const alex = 0.42: scalar;
+
+
+--begining of the comp
+comp RandomNumberGenerator:
+    #number: integer;
+    def next()->integer:
+        #number=(#number*1103515245+12345)%2147483648;
+        if (#number<0):
+            #number=-#number;
+        endif;
+        return #number;
+    enddef;
+endcomp;

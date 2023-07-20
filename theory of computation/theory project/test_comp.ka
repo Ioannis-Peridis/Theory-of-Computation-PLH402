@@ -1,0 +1,43 @@
+--first program in theta
+-- for making this file type 0 in Make.sh arguments
+
+const leo = "new string": str;
+
+
+a, b: integer;--this is a comment
+
+a=2;
+
+
+array[15]: boolean;
+
+ def foo(x: integer, y[22]: scalar, alpha: str, z[15]: integer):
+    a=readStr();
+    if (x<y[1]):
+        return x;
+    else:
+        return;
+    endif;
+enddef;
+
+def main():
+
+    for i in [10:-1:100]:
+        if (a==2):
+            b=foo(x, y, z);
+            a+=b;
+        endif;
+    endfor;
+    a=0;
+    while (a<5):
+        if (a==0):
+            break;
+        endif;
+        a+=1;
+    endwhile;
+enddef;
+
+
+
+
+

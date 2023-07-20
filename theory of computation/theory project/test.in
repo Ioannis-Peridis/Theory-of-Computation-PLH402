@@ -1,0 +1,30 @@
+al
+acd
+dfr
+fwref32443243
+123456
+integer
+
+a
+7.4
+4.42e+3
+4.42e-3
+4.42E5
+
+"yolooooooooqwdq  STRING(((((293"
+
+True
+boolean
+
+"hello: word!\n"
+**
++
+!=
+==
+*=
+and
+
+[()
+\n \t
+/* THIS IS A COMMENT*/
+--this is a line comment
